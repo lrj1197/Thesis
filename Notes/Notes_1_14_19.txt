@@ -1,0 +1,16 @@
+Coldfinger redesign: Coldfinger_1_4.sat
+    -> larger mounting plate
+        -> Larger area => more heat transfer
+    -> Thicker coldfinger (More coldfingers seperated by few mm gap)
+        -> more material for LN2 to be in contact with
+    -> Add two more holes to add set screws
+    -> Remove block for push screw to go
+    -> need way to fasten coldfingers to mounting block. -> Coldfinger_1_6.sat
+    	RESOLVED
+    	-> holes and oversized screw pounded in to hold
+    		-> using 8-32 3/4 in flathead screws
+    			-> use #29 drill bit and bore out hole
+    			-> use 8-32 tap to make threads in hole
+    			-> fasten to plate using screws
+
+    
