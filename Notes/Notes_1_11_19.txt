@@ -1,0 +1,47 @@
+Assembled prototype cold finger
+	-> two aluminium square rods fastened together using tube fastener epoxied to a mounting plate
+	with two half holes on the end to be mounted to bottom of cryostat using set screws for end cap
+
+Explore how the aluminum cold finger works at conducting thermal energy from the cryostat to the LN2 bath
+c_Al = 205.0 # W/(m K)
+c_Cu = 385.0 # W/(m K)
+at 25 min with finger 1/2 sumbered, R = 130 (~ 62 C) and decresing, need better seal on top, key cryostat fully inside cold chamber. 
+Holding steady at 103.52 Ohms (~ -62 C) for 3 - 6 min. 
+@38 min T = -67 C  and rising 1 C every 2 min ish 
+@43 min T = -66 C and droping at rate of 1 C every 4 min ish 
+Temps are measured from middle height on cryostat, Temp is lower closer to the bottom. 
+
+model of heat transfer along coldfinger to shell, how does heat spread along shell? Look for region where T < -77 C
+
+dQdt = -2*pi*r*l*grad(T)
+l = [0,12] #cm
+r = [2,2.5] #cm
+a = [0, 2*pi] #rads
+Ti = -196 C 
+T -> to be determined based on location on shell
+F = cross sectional Area #cm^2
+
+dQdt = -kA/dx * (Ti - T)
+let 
+grad(T) = dTdr + dTdl + (1/r)*dTda
+
+assume
+T = R(r)*L(l)*A(a)
+
+then 
+grad(T) = LA*dRdr + RA*dLdl + RL/r * dAda
+
+do 
+grad(T)/RLA = dRdr/R + dLdl/L + 1/(r*A)*dAda 
+
+now  
+(Ti/R*L*A - 1)*k*F/(2*pi*r*l*dx) =  dRdr/R + dLdl/L + 1/(r*A)*dAda
+
+Need PDE sover now, Looks coupled
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+Plan:
+	Phase 1 (Cooling apparatus):
+		-> build the cooling helix
+			-> 2 parallel 1/8" copper tubing, 6 coils spanning 8" long and 2.75" wide
+		-> install the thermometry
+			-> Ryan is sending the materials for the thermometry device.
+			-> Firmware is on Box
+		-> get method for LN2/N2 delivery 
+		-> test in methanol
+		-> run gas panel with CO2 and test cooling helix 
+		-> run gas panel with NH3
+	Phase 2 (Density measurement):
+		-> build apparatus to measure the density
+		-> test on CO2
+		-> test on NH3_LN2 and NH3_M
+	(If densities are different)
+		Phase 3 (DNP of NH3_M and NH3_LN2):
+			-> DNP NH3_M and test life under radiation beam
+			-> should last longer since higher density
+		Phase 4 (EGS4 Simulation):
+			-> run the simulation with different densities
+			-> see if life time of slug is extended due to higher density
+Questions:
+	1) how to deliver and control the flow of LN2 and N2 gas into cooling helix?
+		-> ideas:
+			-> pressurized LN2/N2 take with line to cooling helix (Ellie mentioned this)
+				needs relief valve and needs only ~5psi 
+				use valves to maintain pressure in the chamber and which is flowing.
+				if failures occur could result in pressure bomb
+				more efficient
+				better control?
+			-> pump pulling LN2/N2 from reservoir
+				used this before but requires separate pump to run simultaneously with gas panel
+				just need a t split with two valves to determine which is flowing.
+				safer
+				less efficient
+				don't want to pull LN2 into pump... very bad.
+	2) CAD of cooling helix 
+		-> in progress
+		-> avoid kinks and sharp bends?  
+	3) How to get cold N2? 
+		-> phase separator? 
+		-> seal the reservoir and pull the gas from the top. 
+	4) attach thermocouples to system 
+		-> attach on opposite side of the excess line and place in between the coils 
+		-> goal is to measure the temp of the bath around where the cryostat is.
+	5) efficient dewar? 
+		-> thinking small Styrofoam box with lid where lid has the cooling helix attached
+		-> build a lid for existing 1L dewar 
+	6) how many coils to minimize time cooling? 
+		-> thinking 6 or 9 shall suffice
+	7) how to measure the temperature with thermocouples
+		-> Ryan and Aruduino 
+	8) Is it stable? how long to the methanol stay cold?
+		-> unknown
+	9) Avoid kinks and tight bends to prevent blockage?
+		-> if yes
+			how to deliver to excess reservoir?
+

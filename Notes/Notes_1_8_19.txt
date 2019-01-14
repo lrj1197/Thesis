@@ -1,0 +1,36 @@
+Test density measurement concept
+	-> Determine the dV/dt of LN2
+		COMPLETE (see Notes_1_10_19.txt)
+		-> LN2 flow -0.045 mL/s
+		-> rho_LN2 = 0.807 g/mL
+		-> LN2 mass loss = -0.04 +/- 0.01 g/s
+		-> place dewar with LN2 on scale
+		-> time how long it take for original mass to evaporate
+		-> dV/dt = (1/rho) * (m_f - m_i)/(t_f - t_i) 
+
+	-> determine accuacy of density measurement with dry ice
+		COMPLETE (see Notes_1_10_19.txt)
+			-> not very precise, need materials listed in Notes_1_10_19.txt
+		-> known rho_CO2 = 1.4 - 1.5 g/cm3
+		-> keep track of time when steps are done
+		-> fill dewar (calorimeter cup) with LN2 on scale
+		-> place volumetric beaker filled with LN2 in bath
+		-> record initial mass and inital volume
+		-> add CO2 bead
+		-> record mass and volume
+		-> Dm = m_f - m_i + dm_LN2
+		-> DV = V_f - V_i + dV_LN2 
+		-> rho_CO2 = Dm/DV [g/mL]
+
+Cold finger freezing method
+	-> attach cold finger to bottom of cryostat
+		-> How?
+	-> build motorized scissor jack to raise/lower cold finger into/outof LN2
+		-> RPi, A4988 board, cable, motor, connector for shaft to thread bolt (https://buildyourcnc.com/item/coupling-rigid-steel-!25-!5)
+	-> Test method
+
+
+
+
+
+

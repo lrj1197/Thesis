@@ -1,0 +1,10 @@
+Things Learned:
+	-> dynamic cooling bath techniques
+	-> density measurements of cryogenic solids 
+	-> thermometry DAQ
+	-> servo motor control
+	-> LN2 evaporation rate 
+	-> 
+
+
+	

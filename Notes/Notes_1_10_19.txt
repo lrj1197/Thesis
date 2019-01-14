@@ -1,0 +1,28 @@
+LN2 evap rate: -0.045 mL/s
+rho_LN2: 0.807 g/mL
+LN2 mass loss: -0.04 +/- 0.01 g/s
+
+thoughts:
+	-> preform density measurements with full holy bottles?
+		-> could work, need bottles to be in LN2 before going in 
+	-> cool down body first before 
+	-> use small ruler and bobber to measure the height of LN2 in container
+	fasten to side of container to ensure linear motion.
+		Materials:
+			-> small bobber (walmart)
+			-> small ruler (Staples) pocket ruler 6 in wood? plastic? not metal tho.
+				-> loosely staple to side of cup
+
+determine the rate at which LN2 evaporates when in contact with room temp body.
+LN2 rate of evaporation = -.25 mL/s
+LN2 rate of evaporation = -0.20 g/s
+
+
+
+
+
+
+
+
+
+

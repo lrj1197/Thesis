@@ -1,0 +1,37 @@
+Coolent: 
+	-> 86:14 MeOH:H20 gives a FP of -128 C or 145 K (not measured)
+	-> pure MeOH gives FP of -98 C or 175 K (not measured)
+	-> measured 90:10 FP of -103 C or 170 K
+	-> measured pure MeOH FP of -71 C or 202 K
+	-> data was taken using AB9 resistor, resistances were taken when R was submesred fully in slush and when there was equal part of solid and fluid and holding same resistance for ~5 seconds. 
+	-> offset of measured values from those of provided by site is ~26 K
+
+Thermomety:
+	-> Arduino Mega 2560
+	-> Adafruit Assembled Data Logging Shield for Arduino
+	-> Gowoops 2 PCS DHT22 Temperature and Humidity Sensor Module Digital Measurement for Arduino Raspberry pi 2 3
+	-> Nextion HMI 3.2” TFT LCD Display Touch Panel 
+	-> Thermocouple + Thermocouple Readout (type k)
+	-> 8 GB SD card
+	-> Small coin cell battery for RTC on Data logger
+	Parts:
+		-> https://www.amazon.com/Arduino-Compatible-Atmega2560-Mega2560-Board/dp/B00JTBMD7E
+		-> https://www.amazon.com/Adafruit-Assembled-Logging-Shield-Arduino/dp/B00OKCRZ7A
+		-> https://www.amazon.com/Gowoops-Temperature-Humidity-Measurement-Raspberry/dp/B073F472JL
+		-> https://www.amazon.com/NX4024T032-480x240-resistive-Display-Nextion/dp/B015DMOYHY
+		-> https://www.banggood.com/MAX31855-K-Type-Thermocouple-Thermocouple-Sensor-For-Arduino-UNO-Mega-p-1175433.html?gmcCountry=US&currency=USD&createTmp=1&utm_source=googleshopping&utm_medium=cpc_union&utm_content=2zou&utm_campaign=ssc-us-en-all&gclid=Cj0KCQiAjszhBRDgARIsAH8Kgve6ASpTuAKIYAAHNCZXeBjnOXVexoAEdvDgFhvwQ9gOQCUwOp3mQEEaAqdMEALw_wcB&cur_warehouse=CN
+		-> https://www.bhphotovideo.com/c/product/752183-REG/SanDisk_SDSDB_008G_B35_8GB_SDHC_Memory_Card.html/?ap=y&gclid=Cj0KCQiAjszhBRDgARIsAH8Kgvc3rsEBX7Vf736ExX9-mc2DSJRIUFSEWSHIS63Dz9ebSq4y3CbsybcaAofuEALw_wcB&lsft=BI%3A514&smp=Y
+		(Ryan Williams of Long Lab)
+
+density measurement idea:
+	-> sumberge cryostat in bath of LN2, measure the change in volume
+		-> use flowmeter (Long Lab as N2 flowmeter) to determine the rate at which LN2 evaporates, use to determine the change in mass due to loss of LN2 and what vol is leaving.
+	-> empty cryostat of LN2 and take mass measurement
+	-> vol_displaced = vol_f - vol_i
+	-> rho = m/Vol_displaced
+	-> gives bulk density
+
+Cooling apparatus:
+	-> cold finger (chilean) ~6 hrs freezing (assuming)
+	-> ethanol cold bath controlled by LN2/N2 in pipe (ALEXANDER BERLIN) ~6 hrs freezing, 8 hrs total
+
