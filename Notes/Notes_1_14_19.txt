@@ -1,6 +1,0 @@
-Coldfinger redesign:
-    -> larger mounting plate
-        -> Larger area => more heat transfer
-    -> Thicker coldfinger
-        -> more material for LN2 to be in contact with
-    
