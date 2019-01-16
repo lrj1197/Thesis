@@ -1,0 +1,7 @@
+Prototype 2 was completed today. 
+was unable to test. 
+thermoetry is at the top exterior of the cryostat and the 4L dewar was used to house the LN2
+
+Coldfinger 1.2 test:
+	->
+
