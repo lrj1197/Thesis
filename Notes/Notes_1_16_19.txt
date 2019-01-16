@@ -1,0 +1,39 @@
+Coldfinger 1.2 test:
+	Modifications from 1.1:
+		-> thermoetry is at the top exterior of the cryostat
+		-> the 4L dewar was used to house the LN2
+		-> mounting plate is 2x larger 
+		-> 4x coldfingers
+	Observations:
+		-> start time: 10:45 am 
+		-> inital resistance 128.99 Ohms
+		-> dRdt = ~0.1 ohms/ min
+		-> looking for roughly 136 Ohms => -87 C 
+		-> measureing device would be really useful
+		-> bottom will be the coldest, measure temperature from bottom of cryostat shaft
+		-> min 45 R = 130.2 ~ -39 C 
+		-> min 60 R = 130.3 ~40 C
+		-> CF fully sumberged in LN2 at 11:45 R = 130.8
+		-> min 90 R = 130.9 => -45 ish 
+		-> almost at R = 131 
+		-> hr 1 min 15 R = 131.34 => -49 C 
+		-> frost forming on the exterior shell of the cryostat... very cold. 
+		-> hr 1 min 30 R = 131.47 => -51 C 
+	Over all the colfinger design passed. I was able to get the top of the cryostat to around -50 C given that the top outside of the cryostat was at that temperature, it can be assumed that the bottom inside of the cryostat is around -80 C. 
+
+Redesign 1.3:
+	-> use copper
+	-> reduce to single 1x1x3in coldfinger 
+	-> use thermometry on the extirior shell
+	-> model the inside temperature based on the outside temperature
+	-> use 4L dewar
+	-> make a better lid
+	-> get a method for determining the LN2 levels inside the dewar.
+	
+
+
+
+
+
+
+
