@@ -1,0 +1,31 @@
+Coldfinger 1.2 test 2:
+	-> need to repeat test b/c test 1 had thermometry on top of the cryostat.
+	-> test 2 will have thermometry on the bottom of the cryostat.
+	Observations:
+		-> start time 9:15
+		-> @ 5 min temp is ~ -33 C
+		-> @15 min temp is ~ -42 C
+		-> @25 min temp is ~ -55 C
+		-> @30 min temo is ~ -63 C
+		-> added more LN2 st the level is covering half the coldfinger
+		-> Temp went to ~ -68 C
+		-> @ 45 min temp is ~ -75
+		-> @ 53 min (10:05) temp is ~ -80
+
+		-> rasiing the coldfinger to stabilize
+		-> want to hold around 135 ohms for time
+		-> temp flux of 2 C 
+		-> @10:20 temp is ~ -80 
+		-> @10:30 temp is ~ -80
+		-> @1045 temp is ~ -80
+	Results/Dsicussion:
+		-> test 2 is a sucess.
+		-> the coldfinger was able to get the bottom of the cyrostat down to -80 after about 50 minutes 
+		-> The temperatrue was stable after the coldfinger was raised so that less of the coldfinger was in the LN2
+		-> saw temperatrue flux of 3 C 
+
+
+
+
+
+
