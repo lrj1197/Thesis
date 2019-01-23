@@ -1,0 +1,8 @@
+LN2 levelmeter prototype 1.0:
+	-> used foam block and small metal rod to measure the level of the LN2 in a dewar.
+	-> the foam block was able to sustain stable floating but the probe wanders around the bath
+	-> construction of jig to hold meter to linear verticle motion is required before the probe can be inplemented.
+
+Coldfinger prototype 1.3:
+	-> parts requested. 
+	-> looking in mech shop, Cu plate is there, need rod. 
