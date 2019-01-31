@@ -1,0 +1,12 @@
+Levelmeter prototype 1.1:
+	-> added a support to back side of mount
+	-> found larger container for LN2
+	-> a better way of determining the level is needed. 
+	-> CAD for 1.1 complete
+
+Mounting plate for coldfinger:
+	-> COMPLETE 
+	-> waiting on copper rod to come in from mcmaster.
+
+
+
