@@ -1,0 +1,12 @@
+Coldfinger 1.5:
+	-> Complete
+	-> test of coldfinger required before full implementation
+
+
+Comments:
+	-> Coldfiner mounted to base of cryostat. 
+	-> Thermometry has been ordered and is being shipped
+	-> need method for measuring LN2 levels
+	-> need way of modulating thermometry
+	-> Need cover for dewar that allows for thermometry, level stick, and cryostat
+
