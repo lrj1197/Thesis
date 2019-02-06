@@ -1,0 +1,8 @@
+Arduino MEGA
+k-type thermocouple + MAX1385 shield
+Nextion LCD touch screen
+3D printed housing unit
+
+
+
+
