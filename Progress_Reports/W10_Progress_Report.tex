@@ -1,0 +1,39 @@
+\documentclass[12pt]{amsart}
+\usepackage{geometry}
+\geometry{letterpaper}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\begin{document}
+\noindent Lucas Jameson \\
+March 13, 2019 \\
+Week 10\\
+
+\section{Phase I}
+COMPLETE \\
+Produced solid CO$2$ using Coldfinger method. Block was clear and crystalline in structure
+when the solid was crushed, it formed shards of CO$2$.
+
+Produced solid electronics grade NH$3$ using Coldfinger method.
+The NH$3$ was clear while in the cryostat but when the slug made contact with LN$2$
+it turned white. Possibly due to the fracturing of the solid from thermal shock
+The material was hard as a block of ice.
+
+
+\section{Phase II}
+In Progress \\
+Using scale with precision of $0.001$g and measuring the volume is in development
+The goal is to measure the density from within the bottle
+using the equation
+\begin{equation}
+\rho =  \frac{(m_{f} - m_{i} - m_{b})}{(V_{f} - V_{i} - V_{b})} + \frac{d \rho_{LN2}}{dt} t
+\end{equation}
+where $m_{f}, V_{f} = $ final mass, volume
+$m_{i}, V_{i} = $  initial mass, volume
+$\frac{d \rho_{LN2}}{dt}$ is the rate at which LN$2$ evaporates at $293$K
+t is the time the measurement was conducted
+
+
+\end{document}
